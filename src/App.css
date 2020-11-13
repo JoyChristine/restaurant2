@@ -1,4 +1,200 @@
-.App {
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 91, 121);
+    font-family: 'Caveat', cursive;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 10em;
+    /* background-color: purple; */
+    margin-block-start: 0;
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: space-evenly;
+    color: yellow;
+    padding: 0; */
+}
+
+.h1 {
+    margin: -0.2em 0 0.2em;
+    font-size: calc(7vw + 2rem);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.sections-list {
+    float: right;
+    margin-block-start: -5em;
+    list-style: none;
+    /* justify-content: space-evenly; */
+    /* color: yellow; */
+}
+
+.sections-list li {
+    padding: 2px 22px;
+    display: inline-block;
+}
+
+.sections-list li a {
+    color: black;
+    text-decoration: none;
+    font-size: calc(2vw + .1em);
+}
+
+.sections-list__item:hover {
+    text-decoration: underline;
+}
+
+.home {
+    display: block;
+    width: 100%;
+    height: 700px;
+    display: block;
+    position: relative;
+}
+
+.home p {
+    display: inline-block;
+}
+
+.home::after {
+    content: "";
+    /* background-image: url(img/delish-oreo-truffles-078-1544222424.jpg); */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.home video {
+    margin-top: 3px;
+    margin-inline-start: 14em;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dessert {
+    display: block;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.69);
+    background: #A6DCEF;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 450px;
+    justify-content: center;
+}
+
+.dessert::after {
+    content: "";
+    /* background-image: url(/img/delish-oreo-truffles-078-1544222424.jpg); */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    top: -10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.dessert img {
+    width: 400px;
+    margin-left: 1.5em;
+    height: 400px;
+}
+
+.contact {
+    /* margin-inline-start: 4em; */
+    transition: all .3s ease-in-out;
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    /* margin-left: 0; */
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+    /* width: 55%; */
+    /* background: BLACK; */
+    background-size: 17%;
+}
+
+.contact::after {
+    content: "";
+    /* background-image: url(img); */
+    background-size: cover;
+    background-position: center;
+    height: 90em;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.contact h2 {
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-inline-start: 0rem;
+}
+
+.contact-items {
+    display: flex;
+    /* margin-block-start: -4em; */
+    float: left;
+    left: 0;
+    margin-inline-start: -4rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-items li {
+    /* display: flex; */
+    list-style: none;
+    padding: .2rem 2rem;
+}
+
+
+/* .contact-items li a {
+    color: white;
+    text-decoration: none;
+    margin: -52px
+} */
+
+.contact-item i {
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+/* .contact h3 {
+    color: ;
+} */
+
+
+/* .contact-item {
+    padding: 10px 0 2px 1px;
+} */
+
+
+/* .App {
     text-align: center;
 }
 
@@ -35,4 +231,4 @@
     to {
         transform: rotate(360deg);
     }
-}
+} */
