@@ -8,7 +8,7 @@ import '../App.css'
 const Contact = () => {
     return (
         
-     <div class="contact">
+     <div className="contact">
     <h2>Contact Us</h2>
     <h3> Call us on 123-456-789 or Write to us via our email:chocolatelyhse@gmail.com</h3>
     <ul class="contact-items">
