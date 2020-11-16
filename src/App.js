@@ -16,6 +16,7 @@ function App() {
     return (  
     <>
         <Navbar /> 
+        
         <Router>
      <Switch>
         <Route exact patch ='/' component={home} /> 
